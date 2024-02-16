@@ -1,11 +1,6 @@
-import { useState } from "react";
-import reactLogo from "../assets/images/favicon-32x32.png";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import "./App.scss";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -13,11 +8,11 @@ function App() {
         <h2>London, United Kingdom</h2>
         <h3>Front-end developer and avid reader.</h3>
 
-        <div>GitHub</div>
-        <div>Frontend Mentor</div>
-        <div>LinkedIn</div>
-        <div>Twitter</div>
-        <div>Instagram</div>
+        <p>GitHub</p>
+        <p>Frontend Mentor</p>
+        <p>LinkedIn</p>
+        <p>Twitter</p>
+        <p>Instagram</p>
 
         <div className="attribution">
           Challenge by{" "}
