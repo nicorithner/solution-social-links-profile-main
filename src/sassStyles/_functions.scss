@@ -1,0 +1,5 @@
+@use "sass:math";
+@function toRem($size, $base: 16) {
+  $division: math.div($size, $base);
+  @return $division + rem;
+}
