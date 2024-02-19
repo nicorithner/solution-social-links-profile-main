@@ -5,7 +5,6 @@
 .card-container {
   width: 384px;
   height: 611px;
-  border: 1px pink solid;
   background: $darkGrey;
   padding: functions.toRem(40);
 }
@@ -13,4 +12,19 @@
 .avatar {
   border-radius: 50%;
   @include widthHeight(88, 88);
+}
+
+.card-title {
+  border: red 1px solid;
+}
+.card-user-summary {
+  border: blue 1px solid;
+}
+.links-section {
+  border: yellowgreen 1px solid;
+}
+
+.link-bar {
+  border: pink 1px solid;
+  color: $white;
 }
