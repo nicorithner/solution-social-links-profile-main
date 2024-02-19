@@ -15,18 +15,30 @@
 }
 
 .card-title {
+  display: grid;
+  gap: functions.toRem(4);
   color: $white;
+  margin-top: functions.toRem(12);
+  margin-bottom: functions.toRem(12);
+}
+
+#name {
+  text-align: center;
+  font-family: Inter;
+  font-size: functions.toRem(24);
+  font-style: normal;
+  font-weight: 600;
+  line-height: functions.toRem(36);
+}
+
+#location {
+  color: $green;
   text-align: center;
   font-family: Inter;
   font-size: functions.toRem(14);
   font-style: normal;
   font-weight: 700;
   line-height: functions.toRem(21);
-  margin-top: functions.toRem(12);
-  margin-bottom: functions.toRem(12);
-}
-#location {
-  color: $green;
 }
 .card-user-summary {
   margin-top: functions.toRem(12);
