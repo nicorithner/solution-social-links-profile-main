@@ -12,9 +12,9 @@ export default function Card() {
         <h1>Jessica Randall</h1>
         <h2>London, United Kingdom</h2>
       </div>
-      <h3 className="card-user-summary">
-        Front-end developer and avid reader.
-      </h3>
+      <div className="card-user-summary">
+        &quot; Front-end developer and avid reader. &quot;
+      </div>
 
       <div className="links-section">
         <a className="link-bar">GitHub</a>

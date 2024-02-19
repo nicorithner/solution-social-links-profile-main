@@ -18,12 +18,20 @@
   border: red 1px solid;
 }
 .card-user-summary {
-  border: blue 1px solid;
+  margin-top: functions.toRem(12);
+  margin-bottom: functions.toRem(12);
+  color: $white;
+  text-align: center;
+  font-family: Inter;
+  font-size: functions.toRem(14);
+  font-style: normal;
+  font-weight: 400;
+  line-height: functions.toRem(21);
 }
 .links-section {
+  margin-top: functions.toRem(12);
   display: grid;
   gap: functions.toRem(16);
-  border: yellowgreen 1px solid;
 }
 
 .link-bar {
@@ -37,4 +45,10 @@
   font-weight: 700;
   line-height: functions.toRem(21);
   background: $grey;
+  cursor: pointer;
+
+  &:hover {
+    background: $green;
+    color: $grey;
+  }
 }
