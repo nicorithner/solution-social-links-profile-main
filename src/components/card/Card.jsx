@@ -9,8 +9,8 @@ export default function Card() {
         alt="user picture"
       />
       <div className="card-title">
-        <h1>Jessica Randall</h1>
-        <h2>London, United Kingdom</h2>
+        <div id="name">Jessica Randall</div>
+        <div id="location">London, United Kingdom</div>
       </div>
       <div className="card-user-summary">
         &quot; Front-end developer and avid reader. &quot;
