@@ -3,6 +3,8 @@
 @import "../../sassStyles/variables";
 
 .card-container {
+  display: grid;
+  justify-items: center;
   width: 384px;
   height: 611px;
   background: $darkGrey;
@@ -52,12 +54,14 @@
   line-height: functions.toRem(21);
 }
 .links-section {
+  width: 100%;
   margin-top: functions.toRem(12);
   display: grid;
   gap: functions.toRem(16);
 }
 
 .link-bar {
+  width: 100%;
   color: $white;
   padding: functions.toRem(12);
   border-radius: functions.toRem(8);
