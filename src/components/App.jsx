@@ -4,15 +4,15 @@ function App() {
   return (
     <>
       <Card />
-      <div>
+      <footer className="footer">
         <div className="attribution">
-          Challenge by{" "}
+          Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Nico Rithner</a>.
+          Coded by <a href="#">Nico Rithner</a>.
         </div>
-      </div>
+      </footer>
     </>
   );
 }
