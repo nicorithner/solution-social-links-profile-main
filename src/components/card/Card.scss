@@ -9,6 +9,12 @@
   height: 611px;
   background: $darkGrey;
   padding: functions.toRem(40);
+  border-radius: functions.toRem(12);
+
+  @include mobileBreakPoint {
+    width: auto;
+    padding: toRem(12);
+  }
 }
 
 .avatar {

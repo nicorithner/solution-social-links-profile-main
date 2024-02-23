@@ -1,4 +1,5 @@
 @import "../sassStyles/_variables.scss";
+@import "../sassStyles/mixins";
 
 .attribution {
   font-size: 11px;
@@ -38,4 +39,8 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   width: 100%;
+
+  @include mobileBreakPoint {
+    gap: 0rem;
+  }
 }

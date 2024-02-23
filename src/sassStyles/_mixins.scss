@@ -2,3 +2,9 @@
   width: $w + px;
   height: $h + px;
 }
+
+@mixin mobileBreakPoint {
+  @media (max-width: 390px) {
+    @content;
+  }
+}
