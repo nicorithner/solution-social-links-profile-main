@@ -1,13 +1,10 @@
 import "./Card.scss";
+import avatar from "/avatar-jessica.jpeg";
 
 export default function Card() {
   return (
     <div className="card-container">
-      <img
-        className="avatar"
-        src="../../../public/assets/images/avatar-jessica.jpeg"
-        alt="user picture"
-      />
+      <img className="avatar" src={avatar} alt="user picture" />
       <div className="card-title">
         <div id="name">Jessica Randall</div>
         <div id="location">London, United Kingdom</div>
