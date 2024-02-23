@@ -4,7 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 /*
@@ -60,4 +60,13 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/*
+  9. Fonts
+ */
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../public/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
